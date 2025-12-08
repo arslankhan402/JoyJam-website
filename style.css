@@ -126,8 +126,8 @@ h1,h2,h3,h4,h5,h6,p {
     position: absolute;
     border-radius: 0%;
     background: radial-gradient(circle, rgb(220, 114, 48), transparent);
-    width: 450px;
-    height: 450px;
+    width: 300px;
+    height: 300px;
     filter: blur(80px);
     z-index: 1;
 }
@@ -157,6 +157,10 @@ h1,h2,h3,h4,h5,h6,p {
 /* hero-section End*/
 
 /* Brand sec Start */
+
+.brand {
+  margin-top: 300px;
+}
 
 .heading-1 h2 {
     font-size: 50px;
@@ -514,7 +518,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* Independent sec start */
 .music {
-  margin-top: 100px;
+  margin-top: 250px;
 }
 
 .title-1 h2 {
