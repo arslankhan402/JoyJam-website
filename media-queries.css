@@ -1,0 +1,22 @@
+
+@media(max-width: 900px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .center-glow {
+    height: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+  .music-img .img-text {
+    right: -10%;
+    font-size: 26px;
+  }
+
+  .info {
+    margin-left: 0;
+    text-align: center;
+  }
+}
