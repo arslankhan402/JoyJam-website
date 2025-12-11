@@ -1,4 +1,163 @@
 
+@media(max-width: 1200px) {
+
+  .info {
+ margin-top: 0px;
+ margin-left: 0px;
+}
+
+}
+
+@media(max-width: 992px) {
+  .info {
+  align-items: center;
+  text-align: center;
+}
+
+.music {
+  margin-top: 150px;
+}
+
+.music-img {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .music-img .imag {
+    width: 200%;  
+    max-width: 400px; 
+    height: auto;
+    transform: translateX(-12%); 
+  }
+
+  .music-img .img-text,
+  .music-img .img-text-2 {
+    position: static !important;
+    transform: none !important;
+    text-align: center !important;
+    margin-top: 15px !important;
+    width: 100% !important;
+  }
+
+  .img-text h3,
+  .img-text-2 h3 {
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    display: inline-block !important;  
+    max-width: 180px !important;        
+    white-space: normal !important;  
+    text-align: center !important;
+  }
+
+  .section-4 {
+    margin-top: 100px;
+  }
+
+
+  .sponsorship .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .detail {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  
+  .sponser-card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 30px;              
+  }
+
+ 
+  .sponser-card .card-1,
+  .sponser-card .card-2,
+  .sponser-card .card-3,
+  .sponser-card .card-4 {
+    width: 100%;  
+    max-width: 600px; 
+  }
+
+  .card-text h3 {
+  font-size: 16px;
+  font-weight: 600;
+   width: 80%; 
+}
+
+
+.mobile-container .wave {
+    width: 80%;
+    max-height: 380px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  
+  .mobile-container .mbl {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+  }
+
+  
+  .neon-box {
+    position: relative;     
+    top: auto;
+    right: auto;
+    margin-top: 180px;    
+    width: 40%;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .neon-box h1 {
+    font-size: 18px;
+  }
+
+  .neon-box p {
+    font-size: 12px;
+  }
+
+
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 16px; 
+}
+
+
+  .buttons .btn-3 {
+    padding: 10px 20px;
+    border-radius: 26px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.buttons .btn-4 {
+    padding: 10px 20px;
+    border-radius: 26px;
+    border: 1px solid white;
+    background: none;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+}
+
+
 @media(max-width: 768px) {
   .carousel {
     width: 220px;
@@ -26,22 +185,224 @@
     font-size: 40px;
 }
 
-}
-
-@media(max-width: 1200px) {
-
-  .info {
- margin-top: 0px;
- margin-left: 0px;
-}
-
-.info span {
-  display: block ;
-  color: #DA4D0B;
-  font-size: 60px;
+.music {
   margin-top: 150px;
 }
+
+.title-1 h2 {
+  font-size: 26px;
+  
 }
+
+.title-1 h1 {
+  font-size: 56px;
+}
+
+.data h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  z-index: 10;
+  line-height: 1.1;
+}
+
+
+.circle-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 520px;
+  height: 520px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+
+.orbit-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: scale(0);
+  opacity: 0;
+  transition: all 0.9s ease;
+  border-radius: 6px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+
+
+
+
+.mobile-container .wave {
+    width: 80%;
+    max-height: 380px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  
+  .mobile-container .mbl {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+  }
+
+  
+  .neon-box {
+    position: relative;     
+    top: auto;
+    right: auto;
+    margin-top: 100px;    
+    width: 55%;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .neon-box h1 {
+    font-size: 18px;
+  }
+
+  .neon-box p {
+    font-size: 12px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 16px; 
+}
+
+
+  .buttons .btn-3 {
+    padding: 10px 20px;
+    border-radius: 26px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buttons .btn-4 {
+    padding: 10px 20px;
+    border-radius: 26px;
+    border: 1px solid white;
+    background: none;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+}
+
+
+@media(max-width: 576px){
+
+  .data h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  z-index: 10;
+  line-height: 1.1;
+}
+
+.circle-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 520px;
+  height: 520px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+
+.orbit-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: scale(0);
+  opacity: 0;
+  transition: all 0.9s ease;
+  border-radius: 6px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+
+.buttons .btn-3 {
+    padding: 10px 14px ;
+    border-radius: 26px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buttons .btn-4 {
+    padding: 10px 14px;
+    border-radius: 26px;
+    border: 1px solid white;
+    background: none;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+}
+
+/* XS screen */
+@media (max-width: 575.98px) {
+
+  .mobile-container .wave {
+    width: 100%;
+    max-height: 380px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  
+  .mobile-container .mbl {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+  }
+
+
+  .buttons .btn-3 {
+    padding: 8px 10px ;
+    border-radius: 26px;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.buttons .btn-4 {
+    padding: 8px 10px;
+    border-radius: 26px;
+    border: 1px solid white;
+    background: none;
+    font-size: 10px;
+    color: white;
+    cursor: pointer;
+}
+}
+
+
+
+
+
+
 
 
 

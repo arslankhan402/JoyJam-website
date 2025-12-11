@@ -558,6 +558,7 @@ h1,h2,h3,h4,h5,h6,p {
 .img-text h3 {
 font-size: 14px;
 }
+
 .music-img .img-text {
   position: absolute;
   top: 30%;
@@ -582,6 +583,8 @@ font-size: 14px;
   line-height: 1.1;
   color: white;
 }
+
+/* sponsorship sec start */
 
 .detail h1:first-of-type {
   font-weight: 600;
@@ -808,7 +811,7 @@ font-size: 14px;
   margin-top: 100px;
 }
 
-.mobile-container .bg {
+.mobile-container .wave {
   width: 70%;       
   height: auto;    
   max-height: 490px; 
@@ -817,7 +820,7 @@ font-size: 14px;
   z-index: 1;
 }
 
-.mobile-container .top {
+.mobile-container .mbl {
   position: absolute;
   top: 1%;       
   left: 28%; 
@@ -873,6 +876,8 @@ color: white;
     color: white;
     cursor: pointer;
 }
+
+
 
 /* mbl-sec end*/
 
