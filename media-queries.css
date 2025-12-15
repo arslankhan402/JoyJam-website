@@ -362,6 +362,12 @@
 /* XS screen */
 @media (max-width: 575.98px) {
 
+  
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
   .mobile-container .wave {
     width: 100%;
     max-height: 380px;

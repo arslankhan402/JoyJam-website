@@ -1,6 +1,6 @@
 const section = document.getElementById("musicSection");
 const images = document.querySelectorAll(".orbit-img");
-const radius = 250; // 
+const radius = 180; // 
 const total = images.length;
 
 function generatePositions() {

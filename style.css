@@ -4,6 +4,9 @@ body {
     background-color: black;
 }
 
+
+
+
 h1,h2,h3,h4,h5,h6,p {
     font-family: "Aharoni", "Aharoni MF", sans-serif;
 }
@@ -126,8 +129,8 @@ h1,h2,h3,h4,h5,h6,p {
     position: absolute;
     border-radius: 0%;
     background: radial-gradient(circle, rgb(220, 114, 48), transparent);
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     filter: blur(80px);
     z-index: 1;
 }
@@ -252,7 +255,7 @@ h1,h2,h3,h4,h5,h6,p {
 .profile-label-final {
   position: absolute;
   top: 50%;
-  left: -90px;
+  left: -60px;
   transform: translateY(-50%);
   background: rgba(255,255,255,0.08);
   backdrop-filter: blur(20px);
